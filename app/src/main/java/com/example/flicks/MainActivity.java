@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     adapter.notifyDataSetChanged();
                 } catch (JSONException e) {
                     e.printStackTrace();
+                    System.out.println("ERROR 2 : "+e.getMessage());
                 }
 
             }
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
                 super.onFailure(statusCode, headers, responseString, throwable);
+                System.out.println("ERROR : "+responseString);
             }
         });
     }

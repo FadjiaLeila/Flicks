@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8090000 "
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spider-Man: Far from Home"
+        android:textAlignment="center"
+        android:textColor="#E1FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#E1FFFFFF"
+        android:clickable="false"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="overview "
+        android:text="Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent."
+        android:textColor="#E1FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Original Language"
+        android:text="en"
+        android:textColor="#E1FFFFFF" />
+
+    <TextView
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Release Date"
+        android:inputType="date"
+        android:text="2019-06-28"
+        android:textColor="#E1FFFFFF" />
+
+</LinearLayout>
