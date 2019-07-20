@@ -28,6 +28,7 @@
         android:textStyle="bold"
         tools:text="Spider-Man: Far from Home" />
 
+
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="469dp"

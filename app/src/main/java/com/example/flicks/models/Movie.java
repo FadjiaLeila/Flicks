@@ -10,6 +10,7 @@ import java.util.List;
 @Parcel
 
 public class Movie  {
+
     int movieId;
     String posterPath;
     String title;

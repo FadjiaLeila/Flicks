@@ -33,6 +33,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
     public MoviesAdapter(Context context, List<Movie> movies) {
         this.context = context;
         this.movies = movies;
+        
     }
 
     @NonNull

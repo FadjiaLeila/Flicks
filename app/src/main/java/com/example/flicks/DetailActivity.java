@@ -88,7 +88,7 @@ public class DetailActivity extends YouTubeBaseActivity {
         youTubePlayerView.initialize(YOUTUBE_API_KEY, new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                Log.d("smile", "on init succes");
+                Log.d("smile", "on init Succes");
                 if ( voteAverage >5  ) {  youTubePlayer.loadVideo("youtubeKey");}
                 else { youTubePlayer.cueVideo("youtubeKey");}
 
